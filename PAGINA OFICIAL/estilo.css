@@ -1,0 +1,35 @@
+::after,
+::before,
+
+body{
+	margin:0 auto;
+	max-width: 1200px;
+	font-family: 'lato';
+	color:#000;
+}
+.icon-cart{
+width: 40px;
+height:40px;
+}
+img{
+	max-width: 100%;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0 10px 0;
+}
+
+
+.container-items{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	
+}
+.item{
+	border-radius: 10px;
+	background-color: pink;
+}
+.item:hover{
+	box-shadow: 0 10px 20px rgba(o, 0, 0, 0, 0.20);
+}
